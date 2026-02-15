@@ -234,9 +234,9 @@ to{top:110vh;}
 <!-- Slideshow -->
 <h2>Our Memories 💕</h2>
 <div id="slideshow">
-<img id="slide" src="image1.jpeg">
-<img id="slide" src="image2.jpeg">
-<img id="slide" src="image3.jpeg">
+<img id="slide1" src="image1.jpeg">
+<img id="slide2" src="image2.jpeg">
+<img id="slide3" src="image3.jpeg">
 </div>
 <!-- Cartoon Cat -->
 <div class="cat">🐱</div>
@@ -247,7 +247,7 @@ to{top:110vh;}
 <!-- Voice Message -->
 <button onclick="playVoice()">▶ Play My Voice Message</button>
 <audio id="voice">
-<source src="MUSIC.mp3">
+<source src="music.mp3">
 </audio>
 
 <!-- GIFT SURPRISE PAGE -->
@@ -265,9 +265,9 @@ to{top:110vh;}
 <h2 id="giftMsg" style="color:yellow; font-size:30px; margin-top:20px;"></h2>
 
 </div>
-<audio id="song1"><source src="Song 1.mpeg"></audio>
-<audio id="song2"><source src="Song 2.mpeg"></audio>
-<audio id="song3"><source src="Song 3.mp4"></audio>
+<audio id="song1"><source src="song1.mpeg"></audio>
+<audio id="song2"><source src="song2.mpeg"></audio>
+<audio id="song3"><source src="song3.mp4"></audio>
 
 
 <!-- Hidden Gift -->
@@ -330,13 +330,13 @@ function openGift(num){
   if(num==2){
     document.getElementById("song2").play();
     msg="💍Will You Marry Me My Love?";
-    videoSrc.src="clip 2.mp4";
+    videoSrc.src="clip2.mp4";
   }
 
   if(num==3){
     document.getElementById("song3").play();
     msg="😍 I Promise To Love You Forever!";
-    videoSrc.src="clip 3.mp4";
+    videoSrc.src="clip3.mp4";
   }
     // Show video
   video.style.display="block";
@@ -406,4 +406,5 @@ firework();
 </script>
 
 </body>
+
 </html>
