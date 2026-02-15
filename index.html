@@ -234,9 +234,9 @@ to{top:110vh;}
 <!-- Slideshow -->
 <h2>Our Memories 💕</h2>
 <div id="slideshow">
-<img id="slide1" src="image1.jpeg">
-<img id="slide2" src="image2.jpeg">
-<img id="slide3" src="image3.jpeg">
+<img id="slide1" src="images/image1.jpeg">
+<img id="slide2" src="images/image2.jpeg">
+<img id="slide3" src="images/image3.jpeg">
 </div>
 <!-- Cartoon Cat -->
 <div class="cat">🐱</div>
@@ -298,11 +298,10 @@ i=(i+1)%pics.length;
 document.getElementById("slide").src=pics[i];
 },2000);
 
-function goNext(){
-  alert("The cat is taking you to the next surprise 😻");
-}
+
 // Go to Gift Page
 function goNext(){
+  alert("The cat is taking you to the next surprise 😻");
   document.getElementById("giftPage").style.display="block";
 }
 
@@ -408,3 +407,4 @@ firework();
 </body>
 
 </html>
+
